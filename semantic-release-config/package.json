@@ -1,0 +1,40 @@
+{
+  "name": "@prescott/semantic-release-config",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "semantic-release configuration for personal projects",
+  "main": "semantic-release.json",
+  "files": [
+    "semantic-release.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/node-standard.git"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/node-standard/issues"
+  },
+  "homepage": "https://github.com/mooyoul/node-standard#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.5",
+    "@semantic-release/npm": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1"
+  },
+  "devDependencies": {
+    "semantic-release-commit-filter": "1.0.2"
+  }
+}

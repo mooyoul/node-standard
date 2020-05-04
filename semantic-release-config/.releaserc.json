@@ -1,0 +1,4 @@
+{
+  "extends": ["semantic-release-commit-filter", "./semantic-release.json"],
+  "tagFormat": "semantic-release-config-v${version}"
+}
