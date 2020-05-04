@@ -15,7 +15,6 @@
     "url": "git+https://github.com/mooyoul/node-standard.git"
   },
   "keywords": [
-    "vingle",
     "tslint",
     "typescript"
   ],
