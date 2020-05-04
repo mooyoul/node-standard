@@ -1,0 +1,141 @@
+{
+  "name": "@prescott/renovate-config",
+  "version": "1.0.0",
+  "description": "Renovate configurations for personal projects",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/node-standard.git"
+  },
+  "keywords": [
+    "renovate"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/node-standard/issues"
+  },
+  "homepage": "https://github.com/mooyoul/node-standard#readme",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "automerge": false,
+      "automergeType": "branch-push",
+      "minor": {
+        "automerge": true
+      },
+      "packageRules": [
+        {
+          "packageNames": [
+            "aws-sdk"
+          ],
+          "schedule": [
+            "on sunday"
+          ]
+        }
+      ],
+      "patch": {
+        "automerge": true
+      },
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": [
+          "on monday"
+        ],
+        "automerge": true
+      },
+      "rebaseStalePrs": true,
+      "schedule": [
+        "at any time"
+      ],
+      "timezone": "Asia/Seoul",
+      "assignees": [
+        "mooyoul"
+      ]
+    },
+    "nodejs8": {
+      "packageRules": [
+        {
+          "packageNames": [
+            "node"
+          ],
+          "allowedVersions": "~8.10.0"
+        },
+        {
+          "packageNames": [
+            "@types/node"
+          ],
+          "allowedVersions": "^8.10.0"
+        },
+        {
+          "packageNames": [
+            "npm"
+          ],
+          "allowedVersions": "^6.10.2"
+        }
+      ]
+    },
+    "nodejs10": {
+      "packageRules": [
+        {
+          "packageNames": [
+            "node"
+          ],
+          "allowedVersions": "^10.0.0"
+        },
+        {
+          "packageNames": [
+            "@types/node"
+          ],
+          "allowedVersions": "^10.0.0"
+        },
+        {
+          "packageNames": [
+            "npm"
+          ],
+          "allowedVersions": "^6.10.2"
+        }
+      ]
+    },
+    "nodejs12": {
+      "packageRules": [
+        {
+          "packageNames": [
+            "node"
+          ],
+          "allowedVersions": "^12.0.0"
+        },
+        {
+          "packageNames": [
+            "@types/node"
+          ],
+          "allowedVersions": "^12.0.0"
+        },
+        {
+          "packageNames": [
+            "npm"
+          ],
+          "allowedVersions": "^6.10.2"
+        }
+      ]
+    },
+    "lambda": {
+      "docker": {
+        "enabled": false
+      }
+    },
+    "semantic-commit": {
+      "semanticCommits": true
+    }
+  },
+  "devDependencies": {
+    "@prescott/semantic-release-config": "1.0.0",
+    "semantic-release-commit-filter": "1.0.2"
+  }
+}
