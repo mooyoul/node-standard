@@ -54,7 +54,7 @@ Then, Use following semantic-release configuration:
 
 ```json
 {
-  "extends": ["semantic-release-commit-filter", "@vingle/semantic-release-config"],
+  "extends": ["semantic-release-commit-filter", "@prescott/semantic-release-config"],
   "tagFormat": "[PACKAGE_NAME]-v${version}"
 }
 ```
