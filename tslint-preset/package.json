@@ -1,0 +1,36 @@
+{
+  "name": "@prescott/tslint-preset",
+  "version": "1.0.0",
+  "description": "A common TSLint preset for personal TypeScript projects",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "tslint.json",
+  "files": [
+    "tslint.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/node-standard.git"
+  },
+  "keywords": [
+    "vingle",
+    "tslint",
+    "typescript"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/node-standard/issues"
+  },
+  "homepage": "https://github.com/mooyoul/node-standard#readme",
+  "peerDependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "^3.0.0"
+  },
+  "devDependencies": {
+    "@prescott/semantic-release-config": "1.0.0",
+    "semantic-release-commit-filter": "1.0.2"
+  }
+}
