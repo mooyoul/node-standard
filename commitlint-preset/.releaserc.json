@@ -1,0 +1,4 @@
+{
+  "extends": ["semantic-release-commit-filter", "@prescott/semantic-release-config"],
+  "tagFormat": "commitlint-preset-v${version}"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@prescott/commitlint-preset",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "commitlint rules for personal projects.",
+  "main": "commitlint.json",
+  "files": [
+    "commitlint.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/node-standard.git"
+  },
+  "keywords": [
+    "commitlint"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/node-standard/issues"
+  },
+  "homepage": "https://github.com/mooyoul/node-standard#readme",
+  "dependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "devDependencies": {
+    "@prescott/semantic-release-config": "1.0.0",
+    "semantic-release-commit-filter": "1.0.2"
+  }
+}
