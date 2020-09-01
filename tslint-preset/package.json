@@ -1,6 +1,6 @@
 {
   "name": "@prescott/tslint-preset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A common TSLint preset for personal TypeScript projects",
   "private": false,
   "publishConfig": {
