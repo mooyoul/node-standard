@@ -29,7 +29,7 @@
     "typescript": "^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
-    "@prescott/semantic-release-config": "1.0.0",
+    "@prescott/semantic-release-config": "1.0.1",
     "semantic-release-commit-filter": "1.0.2"
   }
 }
