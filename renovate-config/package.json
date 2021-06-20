@@ -26,11 +26,16 @@
         "config:base"
       ],
       "automerge": false,
-      "automergeType": "branch-push",
-      "minor": {
-        "automerge": true
-      },
+      "automergeType": "branch",
       "packageRules": [
+        {
+          "matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
+          "automerge": true
+        },
+        {
+          "matchDepTypes": ["devDependencies"],
+          "automerge": true
+        },
         {
           "packageNames": [
             "aws-sdk"
@@ -40,9 +45,6 @@
           ]
         }
       ],
-      "patch": {
-        "automerge": true
-      },
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
