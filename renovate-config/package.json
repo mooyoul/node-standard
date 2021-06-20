@@ -1,6 +1,6 @@
 {
   "name": "@prescott/renovate-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renovate configurations for personal projects",
   "private": false,
   "publishConfig": {
@@ -29,11 +29,19 @@
       "automergeType": "branch",
       "packageRules": [
         {
-          "matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
+          "matchUpdateTypes": [
+            "minor",
+            "patch",
+            "pin",
+            "digest",
+            "lockFileMaintenance"
+          ],
           "automerge": true
         },
         {
-          "matchDepTypes": ["devDependencies"],
+          "matchDepTypes": [
+            "devDependencies"
+          ],
           "automerge": true
         },
         {
