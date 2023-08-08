@@ -7,12 +7,17 @@ on:
 jobs:
   job:
     runs-on: ubuntu-latest
-    container: node:lts
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - name: Use Node.js Active LTS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+          cache-dependency-path: 'tslint-preset/package-lock.json'
       - name: Prepare
         working-directory: tslint-preset
         run: npm ci
