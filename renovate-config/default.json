@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": false,
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance"
+      ],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true
+    },
+    {
+      "packageNames": [
+        "aws-sdk"
+      ],
+      "schedule": [
+        "on sunday"
+      ]
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "on monday"
+    ],
+    "automerge": true
+  },
+  "rebaseStalePrs": true,
+  "schedule": [
+    "at any time"
+  ],
+  "timezone": "Asia/Seoul",
+  "assignees": [
+    "mooyoul"
+  ]
+}

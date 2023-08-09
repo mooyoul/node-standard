@@ -1,0 +1,22 @@
+{
+  "packageRules": [
+    {
+      "packageNames": [
+        "node"
+      ],
+      "allowedVersions": "^18.0.0"
+    },
+    {
+      "packageNames": [
+        "@types/node"
+      ],
+      "allowedVersions": "^18.0.0"
+    },
+    {
+      "packageNames": [
+        "npm"
+      ],
+      "allowedVersions": "^9.0.0"
+    }
+  ]
+}
