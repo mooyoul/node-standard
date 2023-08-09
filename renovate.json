@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@prescott",
-    "@prescott:semantic-commit"
+    "github>mooyoul/node-standard//renovate-config/default",
+    "github>mooyoul/node-standard//renovate-config/semantic-commit"
   ]
 }
