@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/mooyoul/node-standard/compare/semantic-release-config-v1.0.2...semantic-release-config-v1.0.3) (2023-08-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/npm to v10.0.5 ([45abadc](https://github.com/mooyoul/node-standard/commit/45abadc7919d129635a354e58ead94e670ee8fb3))
+
 ## [1.0.2](https://github.com/mooyoul/node-standard/compare/semantic-release-config-v1.0.1...semantic-release-config-v1.0.2) (2023-08-08)
 
 

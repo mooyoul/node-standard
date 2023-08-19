@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "semantic-release configuration for personal projects",
   "main": "semantic-release.json",
   "files": [
