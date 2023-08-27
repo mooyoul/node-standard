@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/mooyoul/node-standard/compare/semantic-release-config-v1.0.3...semantic-release-config-v1.0.4) (2023-08-27)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([47c17c4](https://github.com/mooyoul/node-standard/commit/47c17c4676b181c83ece08dc5bbf78d333add543))
+
 ## [1.0.3](https://github.com/mooyoul/node-standard/compare/semantic-release-config-v1.0.2...semantic-release-config-v1.0.3) (2023-08-19)
 
 
