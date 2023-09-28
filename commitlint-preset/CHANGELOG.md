@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/mooyoul/node-standard/compare/commitlint-preset-v1.0.6...commitlint-preset-v1.0.7) (2023-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v17.7.2 ([6a48b5d](https://github.com/mooyoul/node-standard/commit/6a48b5d8ca546a4d591b36cb903d61e92093167c))
+
 ## [1.0.6](https://github.com/mooyoul/node-standard/compare/commitlint-preset-v1.0.5...commitlint-preset-v1.0.6) (2023-08-10)
 
 
