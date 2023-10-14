@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/mooyoul/node-standard/compare/commitlint-preset-v1.0.7...commitlint-preset-v1.0.8) (2023-10-14)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.8.0 ([a7c7f6a](https://github.com/mooyoul/node-standard/commit/a7c7f6a7ef873fdb1c2acf59106202469f0f6ad0))
+
 ## [1.0.7](https://github.com/mooyoul/node-standard/compare/commitlint-preset-v1.0.6...commitlint-preset-v1.0.7) (2023-09-28)
 
 
