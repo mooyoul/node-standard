@@ -16,6 +16,16 @@ Add the following to `renovate.json`
 
 ### Node.js specific presets
 
+#### Node.js 20
+
+```json
+{
+  "extends": [
+    "github>mooyoul/node-standard//renovate-config/default",
+    "github>mooyoul/node-standard//renovate-config/nodejs20"
+  ]
+}
+```
 #### Node.js 18
 
 ```json
