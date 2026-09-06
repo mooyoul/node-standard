@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@prescott/semantic-release-config": "1.0.17",
-    "semantic-release": "^21.0.7",
+    "semantic-release": "^25.0.0",
     "semantic-release-commit-filter": "1.0.2"
   }
 }
